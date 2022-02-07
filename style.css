@@ -1,25 +1,48 @@
+header {
+  background-color: #5567DC
+}
 h1 {
- color: #BF9A06;
+ color: #F7F7F6;
 }
 
-p {
- color: #ff0000;
+h2 {
+ color: #0C40ED
+}
+h3 {
+  color: #01081C;
+  background-color: #EEF202;
+}
+h4 {
+  color: #EEF202;
+  background-color: #0B9220;
+}
+h5{
+  color: #F51818;
+}
+footer {
+  background-color: #F8F80B
+}
+main {
+  background-color: #42E067
+}
+p2 {
+  color: #F72C11
 }
 a {
-  color: red;
+  color: #29DD11
 }
 
 a:hover {
-  color: yellow;
+  color: #DD1129
 }
 a:visited {
- color: #3FBF3F;
+ color:
 }
 
 #div {
-  color: #0C2626;
-  background-color: #2307D8;
+  color:
+  background-color:
 }
-.spanstyle{
-  color: #00FF00;
+.special{
+  color: #F58718
 }
