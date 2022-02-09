@@ -1,0 +1,26 @@
+.customtext {
+font-family: sans-serif;
+}
+.textcenter {
+font-family: sans-serif;
+text-align: center;
+}
+.textjustify {
+font-family: sans-serif;
+text-align: justify;
+}
+h1 {
+  color: #FC8C0C;
+  font-style: italic;
+  font-weight: normal;
+
+}
+body {
+background-color: #0000ff;
+background-image: url(clouds.jpeg);
+}
+.boxmodel {
+border: 12px solid #090000;
+padding: 10px;
+background-color: #FFFFFF
+}
