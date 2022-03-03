@@ -3,6 +3,7 @@ body{
 }
 
 h1{
+  margin: 0px;
   font-style: helvetica;
   font-weight: normal;
   color: #59C3EC;
@@ -31,7 +32,7 @@ footer {
   border: 3px solid #0557CB;
   background-color: #ffffff;
   display: grid;
-  grid-template-columns: (repeat 12,1fr);
+  grid-template-columns: repeat(12,1fr);
 }
 
 
@@ -47,11 +48,6 @@ border: 3px solid #0557CB;
 padding: 0px;
 }
 
-aside {
-  grid-column: span 1;
-  padding-left: 24px;
-  padding-right: 24px;
-}
 main p{
   padding-left: 24px;
 }
@@ -75,21 +71,23 @@ h2{
  font-weight: bold;
 }
 
-li {
-  display: inline-block;
-  width: 200px;
-  padding: 0;
-  margin: 10px;
-}
-li a {
+nav ul{
+  padding: 0px;
+  margin: 0px;
   background-image: linear-gradient(to bottom, #0a5bd5, #006ede, #007fe4, #0090e9, #12a0eb);
+}
+nav li{
+  width: 230px;
+  margin-right: 10px;
+  display: inline-block;
+}
+nav li a {
   display: block;
   border: 1px solid black;
-  padding: 10px;
-  text-align: center;
-  margin: 0px;
+  padding: 17px;
   color: #59C3EC;
   text-decoration: none;
+  background-image: linear-gradient(to bottom, #0a5bd5, #006ede, #007fe4, #0090e9, #12a0eb);
 }
 
 p a{
@@ -108,6 +106,8 @@ text-decoration: underline;
 }
 nav{
   grid-column: span 12;
+  background-image: linear-gradient(to bottom, #0a5bd5, #006ede, #007fe4, #0090e9, #12a0eb);
+
 }
 li a:hover{
   color: #0727F7;
