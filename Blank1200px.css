@@ -1,0 +1,54 @@
+body {
+  background-color: #999999;
+    background-image: url(bluebg.jpeg);
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+
+}
+h1 {
+  text-align: center;
+  width:500px;
+  margin: 0 auto;
+  font-family: papyrus;
+text-align: center;
+}
+ul {
+  font-family: papyrus;
+  list-style-type: none;
+  width:500px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  display: table;
+
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #;
+}
+main {
+  grid-column: span 12;
+}
