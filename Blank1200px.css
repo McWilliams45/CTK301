@@ -18,19 +18,18 @@ h1 {
   text-align: center;
   width:500px;
   margin: 0 auto;
-  font-family: papyrus;
+  font-family: 'Grape Nuts', cursive;
 text-align: center;
 }
 ul {
-  font-family: papyrus;
+  font-family: 'Grape Nuts', cursive;
   list-style-type: none;
-  width:500px;
+  width: 500px;
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
   background-color: #FFFFFF;
   display: table;
-
 
 }
 
@@ -43,12 +42,42 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  transition: background-color 1.0s, width 2.0s, color 2.0s;
 }
 
 
 li a:hover {
-  background-color: #;
+  color: #BF3FBF;
+  background-color: #3FBFAA;
 }
 main {
   grid-column: span 12;
+}
+div.center{
+ text-align: center;
+}
+h2{
+    font-family: 'Grape Nuts', cursive;
+    text-align: center;
+}
+p{
+  text-align: center;
+}
+.roundedbox {
+  padding: 10px;
+  width: 250px;
+  border: 2px solid #999;
+  background-color: #3FBFAA;
+  border-radius: 5px;
+}
+.textshadowbox {
+  margin: 20px;
+  font-weight: bold;
+  font-size: 36px;
+  color: #369;
+  text-shadow: 2px 2px 2px #000; /* x, y, blur, color */
+}
+h3{
+  font-family: 'Grape Nuts', cursive;
+  text-align: center;
 }
