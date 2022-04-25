@@ -1,0 +1,190 @@
+body {
+  background-color: #999999;
+    background-image: url(bluebg.jpeg);
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+
+}
+h1 {
+  text-align: center;
+  width:500px;
+  margin: 0 auto;
+  font-family: 'Grape Nuts', cursive;
+text-align: center;
+}
+ul {
+  font-family: 'Grape Nuts', cursive;
+  list-style-type: none;
+  width: 500px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  display: table;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 1.0s, width 2.0s, color 2.0s;
+}
+
+
+li a:hover {
+  color: #BF3FBF;
+  background-color: #3FBFAA;
+}
+main {
+  grid-column: span 12;
+  font-family: 'Raleway', sans-serif;
+}
+div.center{
+ text-align: center;
+}
+h2{
+    font-family: 'Grape Nuts', cursive;
+    text-align: center;
+}
+p{
+  text-align: center;
+}
+.roundedbox {
+  padding: 10px;
+  width: 550px;
+  border: 2px solid #999;
+  background-color: #3FBFAA;
+  border-radius: 5px;
+
+}
+.textshadowbox {
+  margin: 20px;
+  font-weight: bold;
+  font-size: 36px;
+  color: #369;
+  text-shadow: 2px 2px 2px #000; /* x, y, blur, color */
+}
+h3{
+  font-family: 'Grape Nuts', cursive;
+  text-align: center;
+}
+
+.carousel {
+  color: #170724;
+
+  --carousel-button-bg: #fff;
+  --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0
+          0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+
+  --carousel-button-svg-width: 20px;
+  --carousel-button-svg-height: 20px;
+  --carousel-button-svg-stroke-width: 2.5;
+}
+
+.carousel__slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 80%!important;
+  height: 500px;
+  margin-right: 6px;
+
+  background-color: #eee;
+  border-radius: 6px;
+}
+#myCarousel {
+
+}
+p{
+font-family: 'Raleway', sans-serif;
+}
+.imageadjust {
+  align-self: center;
+
+}
+figcaption{
+  text-align: center;
+}
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 30px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 80%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
